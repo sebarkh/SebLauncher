@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- .NET Framework 4.8 (wbudowany w Windows 10/11) – mały .exe bez instalowania runtime'u -->
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>SebLauncher</AssemblyName>
+    <RootNamespace>SebLauncher</RootNamespace>
+    <StartupObject>SebLauncher.Program</StartupObject>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Version>1.0.0</Version>
+    <Product>SebLauncher</Product>
+    <Description>SebLauncher – wysuwany pasek do uruchamiania programów i gier</Description>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+</Project>
